@@ -1,0 +1,26 @@
+.image-text-container {
+    position: relative;
+    width: 100%; /* Ensuring it spans the full width of its container */
+    margin: 0 auto; /* Centering any content inside just in case */
+    overflow: hidden; /* Prevent any child elements from overflowing */
+    padding-bottom: 50px;
+}
+
+.background-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0.5;  /* This makes the image faded */
+    display: block;
+}
+
+.centered-text {
+    position: absolute;
+    top: 10%;           /* Adjusts the text to be closer to the top */
+    left: 50%;
+    transform: translateX(-50%);  /* Horizontally center the text */
+    color: #000000;        /* Black text color, adjust if needed */
+    font-size: 24px;    /* Adjust font size as necessary */
+    text-align: center;
+    width: 80%;         /* Restrict text width to avoid overflow */
+    white-space: pre-line;   /* Preserves newlines in the text */
+}

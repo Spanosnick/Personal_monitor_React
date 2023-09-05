@@ -6,7 +6,6 @@ import ImgOverlayExample from '../components/chooseProgram'
 function Homepage() {
     return (
         <div>
-            <MainNavbar/>
             <ImgOverlayExample/>
         </div>
     );

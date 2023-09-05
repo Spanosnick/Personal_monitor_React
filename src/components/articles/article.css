@@ -1,0 +1,21 @@
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;  /* You can adjust this if needed */
+}
+
+/* Adjust the space between columns */
+.custom-col {
+    padding: 0 15px;
+}
+
+.custom-image {
+    margin-bottom: 20px;  /* Increase this value to add more space vertically between images */
+    width: 100%;
+    display: block;
+}
