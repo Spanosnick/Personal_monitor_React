@@ -1,11 +1,13 @@
 import React from "react";
 import MainNavbar from '../components/navbar'
+import ImgOverlayExample from '../components/chooseProgram'
 
 
-function Homepage(){
-    return(
+function Homepage() {
+    return (
         <div>
-        <MainNavbar/>
+            <MainNavbar/>
+            <ImgOverlayExample/>
         </div>
     );
 }
