@@ -3,7 +3,7 @@ import './frams.css';
 
 function Frame({ isDefaultContent }) {
     return (
-        <div className="container">
+        <div className="specialcontainer">
             <div className="image-container">
                 <img
                     src={isDefaultContent ? "/fruits.png" : "/bag.png"}
