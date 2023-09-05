@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#startMenu{
+  min-width: 80px;
+  border-radius: 18px;
+  border: 1px solid black;
+}
+
+#profileMenu{
+  min-width: 80px;
+  background-color: black!important;
+  color: white!important;
+  border: 1px solid #000000;
+  border-radius: 20px;
+
+}
