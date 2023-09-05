@@ -5,7 +5,7 @@ import Homepage from './screens/homepage.js'
 function App() {
   return (
     <div className="App">
-    <Homepage></Homepage>
+    <Homepage/>
     </div>
   );
 }
