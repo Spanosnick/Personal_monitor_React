@@ -9,6 +9,7 @@
     margin: 0 auto;
     position: relative;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .inner-circle {
@@ -66,6 +67,7 @@
     .outer-circle {
         width: 250px;
         height: 250px;
+        margin-bottom: 30px;
     }
 
     .inner-circle {
