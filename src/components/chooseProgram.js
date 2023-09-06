@@ -15,16 +15,16 @@ function ImgOverlayExample({ date }) {
 
     return (
         <Card className="text-start chooseProgram">
-            <Stack className="mx-auto cardLabels my-2" direction="horizontal" gap={5}>
-                <div className="p-2 active ">
+            <Stack className="mx-auto cardLabels my-2" direction="horizontal" gap={3}> {/* Reduced gap */}
+                <div className="p-1 active "> {/* Reduced padding */}
                     <h3>Σήμερα </h3>
                 </div>
 
-                <div className="p-2">
+                <div className="p-1"> {/* Reduced padding */}
                     <h3>Εβδομαδιαίο </h3>
                 </div>
 
-                <div className="p-2">
+                <div className="p-1"> {/* Reduced padding */}
                     <h3>Μηνιαίο </h3>
                 </div>
             </Stack>

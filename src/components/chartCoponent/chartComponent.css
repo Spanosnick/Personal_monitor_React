@@ -1,0 +1,14 @@
+.chooseProgram {
+    width: 100%; /* or a fixed width if you prefer */
+    overflow-x: auto; /* Allows horizontal scrolling if content overflows */
+}
+.p-2 {
+    /* Other styles... */
+    transition: background-color 0.3s ease, color 0.3s ease; /* 0.3s is the duration. You can adjust as needed */
+}
+
+.active {
+    /* Sample active state styles. Adjust as needed */
+    background-color: #007BFF; /* Example color for active state */
+    color: white;
+}
