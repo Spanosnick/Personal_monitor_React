@@ -1,0 +1,113 @@
+.outer-circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+.inner-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-circle img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-area-1, .text-area-2 {
+    position: absolute;
+    width: 50%;
+    background: gray;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+
+.text-area-1 {
+    transform: rotate(135deg) translateX(150px) rotate(-135deg);
+    right: 50%;
+    top: 50%;
+}
+
+.text-area-2 {
+    transform: rotate(315deg) translateX(150px) rotate(-315deg);
+    left: 50%;
+    bottom: 50%;
+}
+
+.bell-icon {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 24px;
+}
+
+@media (max-width: 768px) {
+    .outer-circle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .inner-circle {
+        width: 190px;
+        height: 190px;
+    }
+
+    .text-area-1 {
+        transform: rotate(135deg) translateX(100px) rotate(-135deg);
+    }
+
+    .text-area-2 {
+        transform: rotate(315deg) translateX(100px) rotate(-315deg);
+    }
+
+    .text-area-1, .text-area-2 {
+        padding: 5px;
+        font-size: 0.7rem;
+    }
+
+    .bell-icon {
+        width: 18px; /* Reduced size for smaller screens */
+    }
+}
+
+/* Medium screens */
+@media (min-width: 576px) {
+    .bell-icon {
+        width: 28px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 992px) {
+    .bell-icon {
+        width: 32px;
+    }
+}
+
+/* Extra Large screens */
+@media (min-width: 1200px) {
+    .bell-icon {
+        width: 36px;
+    }
+}
